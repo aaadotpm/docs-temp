@@ -17,7 +17,7 @@ However you choose to access Gradient, your queries must conform to the Sanity Q
 
 A typical query looks like this:
 
-`mikesbikes.api.sanity.io/v1/data/q/bikerental?query=customer[mobile == '555-12345']`
+`mikesbikes.api.sanity.io/v1/data/query/bikerental?query=customer[mobile == '555-12345']`
 
 Let's break this down
 
@@ -25,7 +25,7 @@ Let's break this down
 | --- | --- |
 | mikesbikes| project id |
 | api.sanity.io| sanity api host |
-| /v1/data/q/| data query path |
+| /v1/data/query/| data query path |
 | bikerental| dataset |
 | customer| document type |
 | [mobile == '55512345'] | filter by attribute |
